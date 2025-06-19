@@ -10,7 +10,7 @@ This project creates a machine learning model to operate a semantic segmentation
 
 This dataset consists of `1843` images for training and `500` images for final evaluation/testing. in **12 classes** (including background). Below are sample images from some of the classes present in the dataset:
 
-TODO - UPDATE: ![](./visuals/aerial_drone_segmentation_dataset_image.jpg?raw=true)
+![](./visuals/floodnet_dataset.jpg?raw=true)
 
 ---
 
@@ -57,19 +57,15 @@ self.transforms = A.Compose([
 
 ---
 
-### Inference for Validation:
+### Inference:
 
-TODO - UPDATE: ![](./visuals/inference_for_validation_aerial_drone1.png?raw=true)
-TODO - UPDATE: ![](./visuals/inference_for_validation_aerial_drone2.png?raw=true)
-TODO - UPDATE: ![](./visuals/inference_for_validation_aerial_drone3.png?raw=true)
+![](./visuals/inference_floodnet.png?raw=true)
 
 ---
 
-### Inference for Test:
+### Loss and Dice Score:
 
-TODO - UPDATE: ![](./visuals/inference_for_test_aerial_drone1.png?raw=true)
-TODO - UPDATE: ![](./visuals/inference_for_test_aerial_drone2.png?raw=true)
-TODO - UPDATE: ![](./visuals/inference_for_test_aerial_drone3.png?raw=true)
+![](./visuals/floodnet_train_val_loss_dice.png?raw=true)
 
 ---
 
@@ -77,5 +73,5 @@ TODO - UPDATE: ![](./visuals/inference_for_test_aerial_drone3.png?raw=true)
 
 The configurations discussed above, yielded a score of **0.85274** on the Kaggle's Leaderboard.
 
-TODO - UPDATE: ![](./visuals/aerial_drone_kaggle_title.png?raw=true)
-TODO - UPDATE: ![](./visuals/aerial_drone_segment_kaggle.png?raw=true)
+![](./visuals/flood_segmentation_kaggle_ranking_headline.png?raw=true)
+![](./visuals/flood_segmentation_kaggle.png?raw=true)
